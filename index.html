@@ -46,13 +46,173 @@ footer{background:#102746;color:#dce6f3;padding:24px 0;font-size:13px}footer p{m
     <div class="placeholder"><strong>Department vision and mission</strong><br>Add the official vision, mission, objectives, and history of the department here.</div>
   </div></section>
   <section id="faculty"><div class="wrap">
-    <h3>Faculty</h3><p class="intro">Add verified details about the department’s teachers and staff.</p>
-    <div class="grid">
-      <article class="card"><h4>Head of Department</h4><p>Name, qualification, designation, and official contact details to be added.</p></article>
-      <article class="card"><h4>Teaching Staff</h4><p>Add each faculty member’s name, designation, qualifications, and areas of interest.</p></article>
-      <article class="card"><h4>Office / Contact</h4><p>Add the department’s approved email address and office hours.</p></article>
-    </div>
-  </div></section>
+    <h3>Faculty</h3><p
+<section id="faculty" class="faculty-section">
+  <style>
+    .faculty-section {
+      padding: 35px 16px;
+      background: #f5f7fb;
+      color: #203b3a;
+      font-family: Arial, sans-serif;
+    }
+    .faculty-section .faculty-heading {
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .faculty-section .faculty-heading h2 {
+      font-size: 30px;
+      margin-bottom: 8px;
+      color: #12345a;
+    }
+    .faculty-section .faculty-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .faculty-section .faculty-card {
+      background: white;
+      padding: 22px;
+      border-radius: 14px;
+      border-top: 5px solid #087e8b;
+      box-shadow: 0 4px 14px rgba(0,0,0,.08);
+    }
+    .faculty-section .faculty-number {
+      color: #b85f4b;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .faculty-section .faculty-card h3 {
+      color: #12345a;
+      font-size: 20px;
+      line-height: 1.4;
+      margin: 10px 0;
+    }
+    .faculty-section .faculty-role {
+      color: #087e8b;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .faculty-section .faculty-detail {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #58666b;
+    }
+    .faculty-section .faculty-note {
+      font-size: 12px;
+      color: #68777b;
+      margin-top: 15px;
+    }
+    @media(max-width: 480px) {
+      .faculty-section .faculty-heading h2 {
+        font-size: 25px;
+      }
+      .faculty-section .faculty-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <div class="faculty-heading">
+    <h2>Our Faculty</h2>
+    <p>Meet the Faculty of the English Department</p>
+    <p>MSG College, Malegaon, Nashik</p>
+  </div>
+
+  <div class="faculty-grid">
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 01</div>
+      <h3>Prof. (Dr.) Mukund S. Bhandari</h3>
+      <div class="faculty-role">
+        H.O.D. &amp; P.G. Coordinator
+      </div>
+      <p class="faculty-detail">
+        Departmental leadership and postgraduate coordination.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 02</div>
+      <h3>Prof. (Dr.) Raj V. Tribhuvan</h3>
+      <div class="faculty-role">Faculty Member</div>
+      <p class="faculty-detail">
+        Teaching and academic activities in English.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 03</div>
+      <h3>Prof. (Dr.) Milind M. Ahire</h3>
+      <div class="faculty-role">IQAC Coordinator</div>
+      <p class="faculty-detail">
+        Academic quality coordination.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 04</div>
+      <h3>Prof. (Dr.) Kalyan S. Kokne</h3>
+      <div class="faculty-role">Nodal Officer</div>
+      <p class="faculty-detail">
+        Academic and institutional coordination.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 05</div>
+      <h3>Prof. Anant D. Baviskar</h3>
+      <div class="faculty-role">Faculty Member</div>
+      <p class="faculty-detail">
+        Teaching and student learning activities.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 06</div>
+      <h3>Prof. Sakit R. Sirsath</h3>
+      <div class="faculty-role">Faculty Member</div>
+      <p class="faculty-detail">
+        Teaching and student learning activities.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+    <article class="faculty-card">
+      <div class="faculty-number">FACULTY 07</div>
+      <h3>Prof. Gayatri S. Nikam</h3>
+      <div class="faculty-role">Faculty Member</div>
+      <p class="faculty-detail">
+        Teaching and student learning activities.
+      </p>
+      <p class="faculty-note">
+        Qualification and academic profile: To be updated.
+      </p>
+    </article>
+
+  </div>
+</section>
+></section>
   <section id="academics"><div class="wrap">
     <h3>Academics</h3><p class="intro">Publish current, verified academic information for students.</p>
     <div class="grid">
